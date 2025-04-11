@@ -1,0 +1,64 @@
+.ProductDetail {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .ProductDetail img {
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+  
+  .ProductDetail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .ProductDetail p {
+    margin: 0.5rem 0;
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .ProductDetail button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ProductDetail button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .ProductDetail {
+      padding: 1rem;
+    }
+  
+    .ProductDetail img {
+      max-width: 150px;
+    }
+  
+    .ProductDetail h2 {
+      font-size: 1.2rem;
+    }
+  
+    .ProductDetail p {
+      font-size: 0.95rem;
+    }
+  }
